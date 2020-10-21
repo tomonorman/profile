@@ -51,10 +51,13 @@ a:hover {
 }
 
 img {
-  width: 70%;
-  border-radius: 50%;
   height: 80%;
   border: 2px solid rgb(230,230,230);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 #btn {

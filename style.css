@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+body {
+  background-color: #212121;
+  color: rgb(230,230,230);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #0D7377;
+  letter-spacing: 0.5px
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 16px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #14ffec;
+}
+
+a:hover {
+  color: #ebebeb;
+  transition: 0.5s;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #323232;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  padding: 24px 12px;
+  margin: 16px;
+}
+
+img {
+  width: 70%;
+  border-radius: 50%;
+  height: 80%;
+}
+
+#btn {
+  background-color: #0D7377;
+  color: rgb(230,230,230);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#btn:hover {
+  background-color: black;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 8px;
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 720px;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 540px;
+  }
+  h1 {
+    line-height: 36px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 420px;
+  }
+}
